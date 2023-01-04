@@ -1,5 +1,5 @@
 <template>
-<div class="grid grid-cols-4 gap-5">
+<div class="grid grid-cols-4 gap-5 bg-gray-300 ">
     <div v-for="p in products" :key="p.id">
         <ProductCard :product="p" />
     </div>

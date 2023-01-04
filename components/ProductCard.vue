@@ -1,5 +1,5 @@
 <template>
-  <div class="card text-center">
+  <div class="card text-center bg-gray-200 ">
     <img :src="product.image" alt="Product image" class="imag" />
     <p class="font-bold text-gray-500 m-4 truncate">{{ product.title }}</p>
     <nuxt-link :to="`/products/${product.id}`">
@@ -21,7 +21,7 @@ const { product } = defineProps(["product"]);
 
 .card {
   padding: 3px;
-  background-color: white;
+ 
   font-size: small;
   border: 1px solid rgb(193, 42, 42);
   border-radius: 10px;

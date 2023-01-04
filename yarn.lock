@@ -572,6 +572,13 @@
     "tailwindcss" "^3.2.1"
     "ufo" "^0.8.6"
 
+"@ocrv/vue-tailwind-pagination@^0.0.4":
+  "integrity" "sha512-HVAqa18gh6Nk4o3scqB8zZbXUhoJgFjIGm49N1Wc4q8XMo09jBSqo4OsNAFrYIDK5cK/Et8fH1NgLgzjVCDljQ=="
+  "resolved" "https://registry.npmjs.org/@ocrv/vue-tailwind-pagination/-/vue-tailwind-pagination-0.0.4.tgz"
+  "version" "0.0.4"
+  dependencies:
+    "vue" "^3.0.5"
+
 "@rollup/plugin-alias@^4.0.2":
   "integrity" "sha512-1hv7dBOZZwo3SEupxn4UA2N0EDThqSSS+wI1St1TNTBtOZvUchyIClyHcnDcjjrReTPZ47Faedrhblv4n+T5UQ=="
   "resolved" "https://registry.npmjs.org/@rollup/plugin-alias/-/plugin-alias-4.0.2.tgz"
@@ -5216,7 +5223,7 @@
   dependencies:
     "@vue/devtools-api" "^6.4.5"
 
-"vue@^3.0.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.45", "vue@>=2.7 || >=3", "vue@3.2.45":
+"vue@^3.0.0", "vue@^3.0.5", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.45", "vue@>=2.7 || >=3", "vue@3.2.45":
   "integrity" "sha512-9Nx/Mg2b2xWlXykmCwiTUCWHbWIj53bnkizBxKai1g61f2Xit700A1ljowpTIM11e3uipOeiPcSqnmBg6gyiaA=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.45.tgz"
   "version" "3.2.45"

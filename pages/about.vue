@@ -1,16 +1,35 @@
 <template>
-  <div>
-    <h1>Abouts</h1>
-    <p>
+  <div class="about-us">
+    <h1 class="text-center font-bold">Abouts</h1>
+    <p class="px-3">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
       doloribus. Ipsum, ratione ut ullam, sapiente voluptates provident nostrum,
       repudiandae aperiam accusamus vel impedit. Repudiandae natus libero
       aliquam adipisci. Libero, ut.
     </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad voluptatem
-      consectetur cum quasi ipsam nemo quibusdam nihil aperiam, adipisci sit
-      laborum maxime sint! Iste ex ipsam doloremque inventore earum?
+    <p class="px-3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+      doloribus. Ipsum, ratione ut ullam, sapiente voluptates provident nostrum,
+      repudiandae aperiam accusamus vel impedit. Repudiandae natus libero
+      aliquam adipisci. Libero, ut.
+    </p>
+    <p class="px-3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+      doloribus. Ipsum, ratione ut ullam, sapiente voluptates provident nostrum,
+      repudiandae aperiam accusamus vel impedit. Repudiandae natus libero
+      aliquam adipisci. Libero, ut.
+    </p>
+    <p class="px-3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+      doloribus. Ipsum, ratione ut ullam, sapiente voluptates provident nostrum,
+      repudiandae aperiam accusamus vel impedit. Repudiandae natus libero
+      aliquam adipisci. Libero, ut.
+    </p>
+    <p class="px-3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+      doloribus. Ipsum, ratione ut ullam, sapiente voluptates provident nostrum,
+      repudiandae aperiam accusamus vel impedit. Repudiandae natus libero
+      aliquam adipisci. Libero, ut.
     </p>
   </div>
 </template>
@@ -18,6 +37,11 @@
 <script setup></script>
 
 <style scoped>
+.about-us {
+  height: 100vh;
+  background-color: lightcoral;
+}
+
 h1 {
   margin-bottom: 20px;
   font-size: 36px;
